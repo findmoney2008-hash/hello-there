@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import interior from "@/assets/interior.jpg";
+import { PHOTOS } from "@/data/photos";
 import { Btn, Reveal } from "@/components/site";
 
 export const Route = createFileRoute("/sobre")({
@@ -18,7 +18,7 @@ function About() {
   return (
     <section className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 md:grid-cols-2">
       <Reveal>
-        <img src={interior} alt="Ambiente ilustrativo de restauração" loading="lazy" width={1280} height={960} className="aspect-[4/3] w-full rounded-[2rem] object-cover" />
+        <img src={PHOTOS.fachadaClientes} alt="Clientes à porta da Geladaria e Hamburgaria Edmundo Abel" loading="lazy" width={1280} height={960} className="aspect-[4/3] w-full rounded-[2rem] object-cover" />
       </Reveal>
       <Reveal>
         <p className="mb-3 text-xs font-bold uppercase tracking-[0.3em] text-accent">Sobre nós</p>
