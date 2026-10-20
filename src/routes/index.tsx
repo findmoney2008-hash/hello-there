@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { MapPin, Star } from "lucide-react";
-import hero from "@/assets/hero-burger.jpg";
-import grill from "@/assets/grill.jpg";
+import { PHOTOS } from "@/data/photos";
 import { Btn, ProductCard, Reveal, SectionTitle } from "@/components/site";
 import { PRODUCTS } from "@/data/products";
 import { BUSINESS, MAPS_URL } from "@/data/business";
@@ -41,7 +40,7 @@ function Home() {
           </div>
           <div className="relative animate-in fade-in zoom-in-95 duration-1000">
             <div className="absolute inset-6 rounded-full bg-primary/25 blur-3xl" aria-hidden />
-            <img src={hero} alt="Hambúrguer artesanal com queijo derretido" width={1280} height={1280} className="relative aspect-square w-full rounded-[2rem] object-cover shadow-2xl" />
+            <img src={PHOTOS.hamburguerTabua} alt="Hambúrguer servido em tábua na Edmundo Abel" width={1280} height={1280} className="relative aspect-square w-full rounded-[2rem] object-cover shadow-2xl" />
           </div>
         </div>
       </section>
@@ -55,7 +54,7 @@ function Home() {
       </section>
 
       <section className="relative isolate overflow-hidden">
-        <img src={grill} alt="Hambúrgueres a grelhar" loading="lazy" width={1024} height={1024} className="absolute inset-0 -z-10 h-full w-full object-cover opacity-40" />
+        <img src={PHOTOS.fachada} alt="Fachada do estabelecimento à noite" loading="lazy" width={1024} height={1024} className="absolute inset-0 -z-10 h-full w-full object-cover opacity-40" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-background via-background/80 to-transparent" />
         <Reveal className="mx-auto max-w-7xl px-5 py-28">
           <h2 className="max-w-xl font-display text-4xl leading-tight md:text-6xl">A sua próxima refeição favorita está à sua espera.</h2>

@@ -1,25 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import hero from "@/assets/hero-burger.jpg";
-import classic from "@/assets/classic.jpg";
-import meal from "@/assets/meal.jpg";
-import fries from "@/assets/fries.jpg";
-import icecream from "@/assets/icecream.jpg";
-import grill from "@/assets/grill.jpg";
-import interior from "@/assets/interior.jpg";
-import drinks from "@/assets/drinks.jpg";
+import { GALLERY as IMAGES } from "@/data/photos";
 import { Reveal, SectionTitle } from "@/components/site";
 
-// Imagens ilustrativas — substituir por fotografias reais da hamburgaria.
-const IMAGES = [
-  { src: hero, alt: "Hambúrguer com queijo" },
-  { src: meal, alt: "Refeição completa" },
-  { src: fries, alt: "Batatas fritas" },
-  { src: icecream, alt: "Gelados variados" },
-  { src: grill, alt: "Preparação dos alimentos" },
-  { src: interior, alt: "Ambiente do estabelecimento" },
-  { src: classic, alt: "Hambúrguer clássico" },
-  { src: drinks, alt: "Bebidas" },
-];
 
 export const Route = createFileRoute("/galeria")({
   head: () => ({
@@ -36,7 +18,7 @@ export const Route = createFileRoute("/galeria")({
 function Gallery() {
   return (
     <section className="mx-auto max-w-7xl px-5 py-20">
-      <SectionTitle eyebrow="Galeria" title="Sabores para ver" sub="Imagens ilustrativas, a substituir por fotografias reais do espaço." />
+      <SectionTitle eyebrow="Galeria" title="Sabores para ver" sub="Fotografias reais do nosso espaço e dos nossos pratos." />
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
         {IMAGES.map((img) => (
           <Reveal key={img.alt}>
