@@ -22,7 +22,7 @@ function MenuPage() {
     <section className="mx-auto max-w-7xl px-5 py-20">
       <SectionTitle eyebrow="Menu" title="O que lhe apetece hoje?" sub="Descubra opções deliciosas para satisfazer a sua vontade." />
       <p className="mx-auto -mt-6 mb-10 max-w-xl rounded-xl border border-primary/30 bg-primary/5 px-4 py-3 text-center text-sm text-muted-foreground">
-        Os produtos apresentados são exemplos provisórios. Preços e disponibilidade por confirmar no estabelecimento.
+        Preços em Kwanzas, conforme o menu afixado no estabelecimento. Disponibilidade sujeita a confirmação.
       </p>
       <div className="mb-10 flex flex-wrap justify-center gap-2" role="tablist">
         {(["Todos", ...CATEGORIES] as const).map((c) => (

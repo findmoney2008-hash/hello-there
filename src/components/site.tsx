@@ -90,8 +90,13 @@ export function ProductCard({ p }: { p: Product }) {
   return (
     <article className="group overflow-hidden rounded-2xl border border-border bg-card transition duration-300 hover:-translate-y-1 hover:border-primary/60">
       <div className="relative aspect-square overflow-hidden">
-        <img src={p.image} alt={p.name} loading="lazy" width={1024} height={1024} className="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
-        {p.placeholder && <span className="absolute left-3 top-3 rounded-full bg-background/80 px-3 py-1 text-[0.65rem] font-bold uppercase tracking-wider text-primary">Exemplo provisório</span>}
+        {p.image ? (
+          <img src={p.image} alt={p.name} loading="lazy" width={1024} height={1024} className="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary/20 via-secondary to-accent/20 p-6 text-center">
+            <span className="font-display text-3xl leading-tight text-primary">{p.name}</span>
+          </div>
+        )}
       </div>
       <div className="p-5">
         <p className="text-xs font-semibold uppercase tracking-wider text-accent">{p.category}</p>
