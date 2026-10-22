@@ -1,4 +1,4 @@
-import { PHOTOS } from "@/data/photos";
+import { BEBIDAS, PHOTOS } from "@/data/photos";
 
 export type Category = "Hambúrgueres e sandes" | "Refeições" | "Acompanhamentos" | "Gelados e doces" | "Bebidas";
 export const CATEGORIES: Category[] = ["Hambúrgueres e sandes", "Refeições", "Acompanhamentos", "Gelados e doces", "Bebidas"];
@@ -26,9 +26,10 @@ export const PRODUCTS: Product[] = [
   { name: "Picolé", description: "Gelado de pau.", category: "Gelados e doces", image: null, price: "400 Kz", placeholder: false },
   { name: "Algodão doce", description: "Algodão doce.", category: "Gelados e doces", image: PHOTOS.algodaoDoce, price: "300 Kz", placeholder: false },
   { name: "Pipoca", description: "Pipocas.", category: "Gelados e doces", image: null, price: "100 Kz", placeholder: false },
-  { name: "Água", description: "Garrafa de água.", category: "Bebidas", image: null, price: "150 Kz", placeholder: false },
-  { name: "Tópi / Yala", description: "Refrigerante em garrafa.", category: "Bebidas", image: null, price: "350 Kz", placeholder: false },
-  { name: "Fanta / Coca-Cola / Sprite (garrafa)", description: "Refrigerante em garrafa.", category: "Bebidas", image: null, price: "500 Kz", placeholder: false },
-  { name: "Coca-Cola / Sumol / Pepsi / Compal (lata)", description: "Refrigerante ou sumo em lata.", category: "Bebidas", image: null, price: "750 Kz", placeholder: false },
+  { name: "Água", description: "Garrafa de água.", category: "Bebidas", image: BEBIDAS.agua, price: "150 Kz", placeholder: false },
+  { name: "Top", description: "Refrigerante em garrafa pequena.", category: "Bebidas", image: BEBIDAS.top, price: "350 Kz", placeholder: false },
+  { name: "Yala", description: "Refrigerante em garrafa pequena.", category: "Bebidas", image: BEBIDAS.yala, price: "350 Kz", placeholder: false },
+  { name: "Fanta / Coca-Cola / Sprite (garrafa)", description: "Refrigerante em garrafa.", category: "Bebidas", image: BEBIDAS.garrafas, price: "500 Kz", placeholder: false },
+  { name: "Coca-Cola / Sumol / Pepsi / Compal (lata)", description: "Refrigerante ou sumo em lata.", category: "Bebidas", image: BEBIDAS.latas, price: "750 Kz", placeholder: false },
   { name: "Energéticas (Speed / 3X)", description: "Bebida energética em lata.", category: "Bebidas", image: null, price: "850 Kz", placeholder: false },
 ];
