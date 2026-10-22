@@ -15,6 +15,11 @@ import p12 from "@/assets/real/foto-12.jpg.asset.json";
 import p13 from "@/assets/real/foto-13.jpg.asset.json";
 import p14 from "@/assets/real/foto-14.jpg.asset.json";
 import p15 from "@/assets/real/foto-15.jpg.asset.json";
+import agua from "@/assets/bebidas/agua.jpg.asset.json";
+import garrafas from "@/assets/bebidas/garrafas.jpg.asset.json";
+import top from "@/assets/bebidas/top.jpg.asset.json";
+import yala from "@/assets/bebidas/yala.jpg.asset.json";
+import latas from "@/assets/bebidas/latas.jpg.asset.json";
 
 export const PHOTOS = {
   fachada: p00.url,
@@ -33,6 +38,15 @@ export const PHOTOS = {
   pratoCompleto: p13.url,
   hamburguerServido: p14.url,
   carneBatatas: p15.url,
+};
+
+// Imagens ilustrativas das marcas de bebidas (embalagens), não fotografias do espaço.
+export const BEBIDAS = {
+  agua: agua.url,
+  garrafas: garrafas.url,
+  top: top.url,
+  yala: yala.url,
+  latas: latas.url,
 };
 
 export const GALLERY = [
