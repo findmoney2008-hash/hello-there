@@ -43,9 +43,17 @@ export const PHOTOS = {
   pratoCompleto: p13.url,
   hamburguerServido: p14.url,
   carneBatatas: p15.url,
+  cachorro: cachorro.url,
 };
 
-// Imagens ilustrativas das marcas de bebidas (embalagens), não fotografias do espaço.
+// Imagens ilustrativas das marcas de bebidas e embalagens (não fotografias do espaço).
+export const PRODUTOS = {
+  picole: picoleImg.url,
+  pipoca: pipocaImg.url,
+  speed: speedImg.url,
+  tresX: tresXImg.url,
+};
+
 export const BEBIDAS = {
   agua: agua.url,
   garrafas: garrafas.url,
