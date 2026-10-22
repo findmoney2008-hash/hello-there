@@ -15,6 +15,11 @@ import p12 from "@/assets/real/foto-12.jpg.asset.json";
 import p13 from "@/assets/real/foto-13.jpg.asset.json";
 import p14 from "@/assets/real/foto-14.jpg.asset.json";
 import p15 from "@/assets/real/foto-15.jpg.asset.json";
+import cachorro from "@/assets/real/cachorro.jpg.asset.json";
+import picoleImg from "@/assets/produtos/picole.jpg.asset.json";
+import pipocaImg from "@/assets/produtos/pipoca.jpg.asset.json";
+import speedImg from "@/assets/produtos/speed.jpg.asset.json";
+import tresXImg from "@/assets/produtos/energetica-3x.jpg.asset.json";
 import agua from "@/assets/bebidas/agua.jpg.asset.json";
 import garrafas from "@/assets/bebidas/garrafas.jpg.asset.json";
 import top from "@/assets/bebidas/top.jpg.asset.json";
@@ -38,9 +43,17 @@ export const PHOTOS = {
   pratoCompleto: p13.url,
   hamburguerServido: p14.url,
   carneBatatas: p15.url,
+  cachorro: cachorro.url,
 };
 
-// Imagens ilustrativas das marcas de bebidas (embalagens), não fotografias do espaço.
+// Imagens ilustrativas das marcas de bebidas e embalagens (não fotografias do espaço).
+export const PRODUTOS = {
+  picole: picoleImg.url,
+  pipoca: pipocaImg.url,
+  speed: speedImg.url,
+  tresX: tresXImg.url,
+};
+
 export const BEBIDAS = {
   agua: agua.url,
   garrafas: garrafas.url,
