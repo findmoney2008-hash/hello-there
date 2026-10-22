@@ -25,6 +25,7 @@ import garrafas from "@/assets/bebidas/garrafas.jpg.asset.json";
 import top from "@/assets/bebidas/top.jpg.asset.json";
 import yala from "@/assets/bebidas/yala.jpg.asset.json";
 import latas from "@/assets/bebidas/latas.jpg.asset.json";
+import doseBatataImg from "@/assets/acompanhamentos/dose-de-batata.jpg";
 
 export const PHOTOS = {
   fachada: p00.url,
@@ -34,7 +35,8 @@ export const PHOTOS = {
   hamburguerTabua: p04.url,
   refeicaoTakeaway: p05.url,
   hamburguerCola: p06.url,
-  pratoBatatas: p07.url,
+  pratoBatatas: doseBatataImg,
+  doseBatata: doseBatataImg,
   saladaBatatas: p08.url,
   mesaRefeicao: p09.url,
   geladosClientes: p10.url,
@@ -75,7 +77,7 @@ export const GALLERY = [
   { src: PHOTOS.wrap, alt: "Wrap com bebida" },
   { src: PHOTOS.fachadaClientes, alt: "Clientes à porta do estabelecimento" },
   { src: PHOTOS.carneBatatas, alt: "Carne com batatas e salada" },
-  { src: PHOTOS.pratoBatatas, alt: "Prato com batatas e salada" },
+  { src: PHOTOS.pratoBatatas, alt: "Dose de batata frita com molho" },
   { src: PHOTOS.mesaRefeicao, alt: "Mesa com refeição" },
   { src: PHOTOS.geladosCone, alt: "Gelados em cone" },
   { src: PHOTOS.hamburguerServido, alt: "Hambúrguer servido pela equipa" },

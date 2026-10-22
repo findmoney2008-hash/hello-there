@@ -20,7 +20,7 @@ export const PRODUCTS: Product[] = [
   { name: "Churrasco", description: "Refeição de churrasco.", category: "Refeições", image: PHOTOS.carneBatatas, price: "5 000 Kz", placeholder: false },
   { name: "Dose de batata e frango panado", description: "Batatas fritas com frango panado.", category: "Refeições", image: PHOTOS.pratoCompleto, price: "4 000 Kz", placeholder: false },
   { name: "Refeição para levar", description: "Carne com batatas e salada, em caixa para levar.", category: "Refeições", image: PHOTOS.refeicaoTakeaway, price: "5 000 Kz", placeholder: false },
-  { name: "Dose de batata", description: "Batatas fritas.", category: "Acompanhamentos", image: PHOTOS.pratoBatatas, price: "1 000 Kz", placeholder: false },
+  { name: "Dose de batata", description: "Batatas fritas.", category: "Acompanhamentos", image: PHOTOS.doseBatata, price: "1 000 Kz", placeholder: false },
   { name: "Gelado", description: "Gelado em cone, vários tamanhos.", category: "Gelados e doces", image: PHOTOS.geladosCone, price: "500 Kz / 700 Kz", placeholder: false },
   { name: "Picolé", description: "Gelado de pau.", category: "Gelados e doces", image: PRODUTOS.picole, price: "400 Kz", placeholder: false },
   { name: "Algodão doce", description: "Algodão doce.", category: "Gelados e doces", image: PHOTOS.algodaoDoce, price: "300 Kz", placeholder: false },
