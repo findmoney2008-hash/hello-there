@@ -15,10 +15,6 @@ import p12 from "@/assets/real/foto-12.jpg.asset.json";
 import p13 from "@/assets/real/foto-13.jpg.asset.json";
 import p14 from "@/assets/real/foto-14.jpg.asset.json";
 import p15 from "@/assets/real/foto-15.jpg.asset.json";
-import p16 from "@/assets/real/foto-16.jpg.asset.json";
-import p17 from "@/assets/real/foto-17.jpg.asset.json";
-import p18 from "@/assets/real/foto-18.jpg.asset.json";
-import p19 from "@/assets/real/foto-19.jpg.asset.json";
 import p20 from "@/assets/real/foto-20.jpg.asset.json";
 import p21 from "@/assets/real/foto-21.jpg.asset.json";
 import p22 from "@/assets/real/foto-22.jpg.asset.json";
@@ -72,10 +68,6 @@ export const PHOTOS = {
   hamburguerServido: p14.url,
   carneBatatas: p15.url,
   cachorro: cachorro.url,
-  menuHamburgueres: p16.url,
-  menuBebidas: p17.url,
-  menuGelados: p18.url,
-  menuRefeicoes: p19.url,
   geladoConeMesa: p20.url,
   refeicaoCarneBatatas: p21.url,
   refeicaoEmbalada: p22.url,
@@ -133,10 +125,6 @@ export const GALLERY = [
   { src: PHOTOS.mesaRefeicao, alt: "Mesa com refeição" },
   { src: PHOTOS.geladosCone, alt: "Gelados em cone" },
   { src: PHOTOS.hamburguerServido, alt: "Hambúrguer servido pela equipa" },
-  { src: PHOTOS.menuHamburgueres, alt: "Menu afixado: hambúrgueres e preços" },
-  { src: PHOTOS.menuBebidas, alt: "Lista de bebidas com preços" },
-  { src: PHOTOS.menuGelados, alt: "Menu afixado: gelados e doces" },
-  { src: PHOTOS.menuRefeicoes, alt: "Menu afixado: refeições" },
   { src: PHOTOS.geladoConeMesa, alt: "Gelado em cone servido à mesa" },
   { src: PHOTOS.refeicaoCarneBatatas, alt: "Refeição com carne, batatas e salada" },
   { src: PHOTOS.refeicaoEmbalada, alt: "Refeição embalada com carne e batatas" },
