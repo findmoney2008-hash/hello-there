@@ -8,10 +8,10 @@ import { BUSINESS, MAPS_URL } from "@/data/business";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Edmundo Abel — Geladaria e Hamburgaria na Samba, Luanda" },
-      { name: "description", content: "Hambúrgueres, refeições, batatas fritas e gelados na Rua Direita da Samba, Luanda. Descubra o menu e venha visitar-nos." },
+      { title: "Edmundo Abel — Geladaria e Hamburgaria em Corimba, Luanda" },
+      { name: "description", content: "Hambúrgueres, refeições, batatas fritas e gelados na Estrada da Samba, Corimba, Luanda. Descubra o menu e venha visitar-nos." },
       { property: "og:title", content: "Edmundo Abel — Geladaria e Hamburgaria em Luanda" },
-      { property: "og:description", content: "Hambúrgueres e gelados na Rua Direita da Samba, Luanda." },
+      { property: "og:description", content: "Hambúrgueres e gelados na Estrada da Samba, Corimba, Luanda." },
     ],
   }),
   component: Home,
