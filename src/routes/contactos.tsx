@@ -6,10 +6,10 @@ import { BUSINESS, MAPS_EMBED, MAPS_URL } from "@/data/business";
 export const Route = createFileRoute("/contactos")({
   head: () => ({
     meta: [
-      { title: "Contactos e localização — Edmundo Abel, Samba, Luanda" },
-      { name: "description", content: "Rua Direita da Samba, Luanda. Telefone +244 923 047 469. Veja como chegar à Geladaria e Hamburgaria Edmundo Abel." },
+      { title: "Contactos e localização — Edmundo Abel, Corimba, Luanda" },
+      { name: "description", content: "Estrada da Samba, Corimba, Luanda. Telefone +244 923 047 469. Veja como chegar à Geladaria e Hamburgaria Edmundo Abel." },
       { property: "og:title", content: "Contactos — Edmundo Abel" },
-      { property: "og:description", content: "Rua Direita da Samba, Luanda, Angola." },
+      { property: "og:description", content: "Estrada da Samba, Corimba, Luanda, Angola." },
     ],
   }),
   component: Contact,
@@ -18,6 +18,7 @@ export const Route = createFileRoute("/contactos")({
 function Contact() {
   const rows = [
     { icon: MapPin, label: "Endereço", value: BUSINESS.address },
+    { icon: MapPin, label: "Referência", value: BUSINESS.landmark },
     { icon: Hash, label: "Código Plus", value: BUSINESS.plusCode },
     { icon: Phone, label: "Telefone (ficha pública)", value: BUSINESS.phoneDisplay },
     { icon: Clock, label: "Horário", value: BUSINESS.hours },

@@ -2,7 +2,8 @@
 export const BUSINESS = {
   name: "Geladaria e Hamburgaria Edmundo Abel",
   short: "Edmundo Abel",
-  address: "Rua Direita da Samba, Luanda, Angola",
+  address: "Estrada da Samba, Corimba, Luanda, Angola",
+  landmark: "Na rua da Geladaria Edmundo Abel",
   plusCode: "46P3+X3J",
   phoneDisplay: "+244 923 047 469",
   phoneHref: "tel:+244923047469",
@@ -12,6 +13,6 @@ export const BUSINESS = {
   tagline: "Sabor para todos os momentos.",
 };
 
-const q = encodeURIComponent(`${BUSINESS.plusCode} Samba, Luanda, Angola`);
+const q = encodeURIComponent(`${BUSINESS.address}`);
 export const MAPS_URL = `https://www.google.com/maps/search/?api=1&query=${q}`;
 export const MAPS_EMBED = `https://maps.google.com/maps?q=${q}&z=16&output=embed`;
