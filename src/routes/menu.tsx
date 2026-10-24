@@ -7,9 +7,9 @@ export const Route = createFileRoute("/menu")({
   head: () => ({
     meta: [
       { title: "Menu — Edmundo Abel, Hamburgaria em Luanda" },
-      { name: "description", content: "Hambúrgueres, refeições, acompanhamentos, gelados e bebidas da Geladaria e Hamburgaria Edmundo Abel, Samba, Luanda." },
+      { name: "description", content: "Hambúrgueres, refeições, acompanhamentos, gelados e bebidas da Geladaria e Hamburgaria Edmundo Abel, Corimba, Luanda." },
       { property: "og:title", content: "Menu — Edmundo Abel" },
-      { property: "og:description", content: "Descubra hambúrgueres, refeições e gelados na Samba, Luanda." },
+      { property: "og:description", content: "Descubra hambúrgueres, refeições e gelados na Estrada da Samba, Corimba, Luanda." },
     ],
   }),
   component: MenuPage,
